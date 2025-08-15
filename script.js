@@ -70,9 +70,9 @@ let currentVideoBox = null;     // to track which box is playing
 
 function playVideo(videoNumber) {
     const videoFiles = {
-        1: "/photos/nvid3.mp4",
-        2: "/photos/nvid2.mp4",
-        3: "/photos/nvid1.mp4"
+        1: "photos/nvid3.mp4",
+        2: "photos/nvid2.mp4",
+        3: "photos/nvid1.mp4"
     };
 
     const box = document.getElementById(`videoBox${videoNumber}`);
