@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alifa Islam Neha! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Happy Birthday!">Happy Birthday!</h1>
+            <p class="hero-subtitle">To the most amazing and beautiful girl ✨</p>
+            <div class="birthday-date">
+                <span style="font-weight: 700;">August,22</span>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Explore Memories 🎈
+            </button>
+        </div>
+        <div class="floating-elements">
+            <div class="balloon balloon-1">🎈</div>
+            <div class="balloon balloon-2">🎂</div>
+            <div class="balloon balloon-3">🎉</div>
+            <div class="balloon balloon-4">✨</div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#hero" onclick="scrollToSection('hero')">Home</a></li>
+            <li><a href="#gallery" onclick="scrollToSection('gallery')">Photos</a></li>
+            <li><a href="#videos" onclick="scrollToSection('videos')">Videos</a></li>
+            <li><a href="#memories" onclick="scrollToSection('memories')">Memories</a></li>
+            <li><a href="#wishes" onclick="scrollToSection('wishes')">Wishes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Beautiful Memories 📸</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="/photos/img1.jpeg" alt="Memory 1">
+                    <div class="overlay">
+                        <span>Click to view</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="/photos/img2.jpeg" alt="Memory 2">
+                    <div class="overlay">
+                        <span>Click to view</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="/photos/img3.jpeg" alt="Memory 3">
+                    <div class="overlay">
+                        <span>Click to view</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="/photos/img4.jpeg" alt="Memory 4">
+                    <div class="overlay">
+                        <span>Click to view</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="/photos/img5.jpeg" alt="Memory 5">
+                    <div class="overlay">
+                        <span>Click to view</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="/photos/img6.jpeg" alt="Memory 6">
+                    <div class="overlay">
+                        <span>Click to view</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <!-- Video Section -->
+<section id="videos" class="video-section">
+    <div class="container">
+        <h2 class="section-title">Special Moments 🎬</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <div class="video-placeholder" id="videoBox1">
+                    <div class="play-button" onclick="playVideo(1)">▶️</div>
+                    <p>Video</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <div class="video-placeholder" id="videoBox2">
+                    <div class="play-button" onclick="playVideo(2)">▶️</div>
+                    <p>Video</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <div class="video-placeholder" id="videoBox3">
+                    <div class="play-button" onclick="playVideo(3)">▶️</div>
+                    <p>Video</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Memories Section -->
+    <section id="memories" class="memories-section">
+        <div class="container">
+            <h2 class="section-title">Amazing Memories 💭</h2>
+            <div class="memories-timeline">
+                <div class="memory-card">
+                    <div class="memory-date">May 2025</div>
+                    <h3>First Adventure</h3>
+                    <p>🌿"18+ kilometer mountain road-first trekking of my life tied with fear,tiredness and joy.Every step was a story,victory and most of all- 
+                        was a silent battle with myself,which taught me to recognize me again." "Outside the network,right in the middle of nature-quiet hills,spring music,moonlight and starry sky. A complete peace in the lap of nature "🌿
+                    </p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-date">August 2025</div>
+                    <h3>Cha & Conversations</h3>
+                    <p>One cup of cha, and Nichu Bot — where gossip is served hotter than the tea!" 😄!</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-date">August 2025</div>
+                    <h3>Celebration Time</h3>
+                    <p>"Under warm lights and smiling faces, celebration feels like time pausing just to let joy dance a little longer." ✨!</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-date">Today</div>
+                    <h3>Your Special Day</h3>
+                    <p>✨🎂 May your day be filled with laughter, love, and little moments that sparkle forever 🌸🎉!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Wishes -->
+    <section id="wishes" class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">Birthday Wishes 🌟</h2>
+            <div class="wishes-content">
+                <div class="wish-card main-wish">
+                    <h3>Dear Amazing Friend,</h3>
+                    <p>🌸✨ Wishing you a birthday as beautiful as your heart and as bright as your dreams.</p>
+                    <p>May every moment today be wrapped in joy, every smile shine like the morning sun,
+                    and every wish you make find its way to becoming true.</p>
+                    <p>✨🌿 Golden skies, gentle hearts, endless dreams.
+                        Happy Birthday, beautiful soul — may your year be wrapped in light, love, and magic. 🌸💫 🎉✨</p>
+                    <div class="signature">With love and best wishes ✨</div>
+                </div>
+                
+                <div class="interactive-wishes">
+                    <button class="wish-button" onclick="showRandomWish()">Get a Random Wish! 🎁</button>
+                    <div id="random-wish" class="random-wish-display"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Image Gallery -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made with ❤️ for an amazing friend</p>
+            <div class="footer-hearts">💖 🎂 💖</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+   
+<audio id="bgMusic" loop>
+  <source src="/photos/audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  const bgMusic = document.getElementById("bgMusic");
+
+  function startMusic() {
+    bgMusic.play().catch(err => console.log("Playback blocked:", err));
+    document.removeEventListener("click", startMusic); // only trigger once
+  }
+
+  document.addEventListener("click", startMusic);
+</script>
+
+
+
+</body>
+</html>
